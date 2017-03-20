@@ -1,0 +1,25 @@
+{
+  "name": "[NAME]",
+  "version": "[VERSION]",
+  "description": "[DESCRIPTION]",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "start:dev": "nodemon server.js"
+  },
+  "author": "[AUTHOR]",
+  "license": "[LICENSE]",
+  "dependencies": {
+    "dotenv": "^2.0.0",
+    "hapi": "^16.1.0",
+    "hoek": "^4.1.0",
+    "pug": "^2.0.0-beta6",
+    "sequelize": "^3.28.0",
+    "sqlite3": "^3.1.8",
+    "vision": "^4.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "scaffold",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": {
+    "scaffold": "index.js"
+  },
+  "author": "James Kolce <contact@jameskolce.com>",
+  "license": "MIT",
+  "dependencies": {
+    "caporal": "^0.3.0",
+    "colors": "^1.1.2",
+    "prompt": "^1.0.0",
+    "shelljs": "^0.7.7"
+  }
+}
